@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Test.Assignment1.Test_FillContactForm">
+        <methods>
+          <include name="setUp"/>
+          <include name="click_GoogleLink"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Test.Assignment1.Test_FillContactForm -->
+      <class name="com.Test.Assignment1.Test_DragAndDropTarget">
+        <methods>
+          <include name="verifyText"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="dragAndDropAction"/>
+        </methods>
+      </class> <!-- com.Test.Assignment1.Test_DragAndDropTarget -->
+      <class name="com.Test.Assignment1.Test_RentalCarBlock">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="selectDiffCarType"/>
+        </methods>
+      </class> <!-- com.Test.Assignment1.Test_RentalCarBlock -->
+      <class name="com.Test.Assignment1.Test_SelectableItem_ClickItem_GetItemName">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="click_SelectableLink"/>
+        </methods>
+      </class> <!-- com.Test.Assignment1.Test_SelectableItem_ClickItem_GetItemName -->
+      <class name="com.Test.Assignment1.Test_DatePickerDOB">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="selectingDOB"/>
+        </methods>
+      </class> <!-- com.Test.Assignment1.Test_DatePickerDOB -->
+      <class name="com.Test.Assignment1.Test_SelectMenuOption">
+        <methods>
+          <include name="selectSpeed"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Test.Assignment1.Test_SelectMenuOption -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
